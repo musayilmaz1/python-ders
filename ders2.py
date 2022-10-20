@@ -127,3 +127,13 @@ def birim_islem(**birim):
 
 lambda_fonksiyonu = lambda a: a + 10
 print(lambda_fonksiyonu(5))
+"""
+bunun kulllanim alani bir sinav sorusu dikkat
+
+"""
+def benim_fonk(n):
+    return lambda a:a*n
+karti_al=benim_fonk(2)
+print(karti_al(5))
+karti_al= benim_fonk(5)
+print(karti_al(5))
